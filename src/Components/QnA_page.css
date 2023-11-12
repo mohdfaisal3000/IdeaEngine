@@ -1,4 +1,4 @@
-.pro-algin{
+.pro-algin {
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -7,16 +7,18 @@
     background-color: #222;
     border-radius: 4px;
     font-weight: 300;
-    float:right;
+    float: right;
 }
-.mydivider{
+
+.mydivider {
     height: 0.5px;
     width: 100%;
     border: 1px solid #222;
     border-radius: 12px;
 
 }
-.qna-free{
+
+.qna-free {
     color: #fff;
     background-color: #393939;
     cursor: pointer;
@@ -26,7 +28,8 @@
     padding: 6px 16px;
     font-weight: 400;
 }
-.qna-pro{
+
+.qna-pro {
     cursor: pointer;
     font-size: 14px;
     text-align: center;
@@ -35,51 +38,55 @@
     padding: 6px 16px;
     font-weight: 400;
 }
-.qna-header{
+
+.qna-header {
     top: 0;
     height: 100vh;
     width: 270px;
     display: flex;
-    position:fixed ;
+    position: fixed;
     /* align-items: center; */
     flex-direction: column;
     background: #121212;
-    color:white;
+    color: white;
     /* z-index: 1; */
     right: 0;
-    overflow-x: hidden; 
-    padding: 15px 0; 
+    overflow-x: hidden;
+    padding: 15px 0;
     border-left: 8px solid black;
 }
 
 
-.logo img{
+.logo img {
     width: 100%;
     height: 100%;
     display: block;
 }
-.logo{
-    width:26px;
+
+.logo {
+    width: 26px;
     height: 26px;
     min-width: 26px;
     overflow: hidden;
     border-radius: 4px;
 }
-.bussiness{
+
+.bussiness {
     width: 98%;
     display: flex;
     position: relative;
     gap: 24px;
     color: #ddd;
     padding: 32px 186px;
-    
+
     white-space: pre-line;
 }
-.qna-box{
+
+.qna-box {
     background-color: #121212;
     width: 76%;
     /* display: flex; */
-    position: relative; 
+    position: relative;
     /* gap: 10px; */
     color: #ddd;
     padding: 32px 128px;
@@ -87,37 +94,41 @@
     margin: auto;
     text-align: center;
 }
-.qna-border{
+
+.qna-border {
     cursor: pointer;
-    overflow: hidden; 
-   
+    overflow: hidden;
+
     background: #121212;
     border-radius: 6px;
     border: 1px solid #393939;
-   
+
     padding: 12px 0;
     text-align: center;
 }
-.qna-text{
+
+.qna-text {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: #ccc;
     padding: 16px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 25px;
 }
-.cards-group{
+
+.cards-group {
     flex: 1;
     display: flex;
     gap: 10px;
     flex-direction: column;
     padding: 24px;
 }
-.stp-title{
+
+.stp-title {
     overflow: hidden;
     font-weight: 600;
     font-size: .9rem;
@@ -125,13 +136,15 @@
     color: #999;
     text-overflow: ellipsis;
 }
-.step-group{
+
+.step-group {
     display: flex;
     position: relative;
-    gap: 5px; 
+    gap: 5px;
     flex-direction: column;
 }
-.line{
+
+.line {
     z-index: 0;
     top: 14px;
     width: 2px;
@@ -141,13 +154,15 @@
     position: absolute;
     border-right: 2px dotted #999;
 }
-.step{
+
+.step {
     z-index: 1;
     display: flex;
-    align-items:baseline; 
+    align-items: baseline;
     gap: 12px;
 }
-.circle{
+
+.circle {
     display: block;
     min-width: 14px;
     min-height: 14px;
@@ -156,23 +171,26 @@
     background: #999;
     border-radius: 50%;
 }
-.text{
-    color:#999;
-    
+
+.text {
+    color: #999;
+
     overflow: hidden;
     font-size: 15px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.company-group{
+
+.company-group {
     display: flex;
     flex-wrap: wrap;
     font-size: small;
     margin-top: auto;
-    gap:-2px;
+    gap: -2px;
     color: #999;
 }
-.digital-text{
+
+.digital-text {
     cursor: pointer;
     font-size: 1rem;
     color: #f6f6f6;
@@ -182,7 +200,7 @@
     position: relative;
 }
 
-.digital-text p{
+.digital-text p {
     margin-bottom: 0;
 }
 
@@ -208,25 +226,25 @@
 
 
 
-.q-header-class{
+.q-header-class {
     border-right: 8px solid #000;
     top: 0;
-    left:0;
+    left: 0;
     height: 100vh;
     width: 268px;
     display: flex;
     /* align-items: center; */
     flex-direction: column;
     background: #121212;
-   color:white;
-    /* z-index: 1; */
+    color: white;
+    z-index: 1;
     position: fixed;
     left: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     /* padding: 15px;  */
 }
 
-.logo1{
+.logo1 {
     display: flex;
     align-items: flex-start;
     /* justify-content: center; */
@@ -235,7 +253,7 @@
     padding-bottom: 0;
 }
 
-.logo1 p{
+.logo1 p {
     flex: 1;
     font-weight: 500;
     font-size: 1.75rem;
@@ -243,7 +261,7 @@
     color: #ddd;
 }
 
-.row{
+.row {
     justify-content: center;
 }
 
@@ -262,18 +280,15 @@
     border: none;
 }
 
-.blue{
+.blue {
     display: flex;
     color: #fff;
 }
 
 
-
-
-
 @media only screen and (min-width: 576px) {
     ::-webkit-scrollbar {
-        width:10px;
+        width: 10px;
         height: 10px;
         border-radius: 5px;
         background: #121212;
@@ -291,15 +306,37 @@
 }
 
 
+@media (max-width: 770px) {
+    .q-header-class {
+        display: none;
+    }
+}
 
+@media (max-width: 770px) {
+    .qna-header {
+        display: none;
+    }
+}
 
+@media (max-width: 770px) {
+    .container {
+        max-width: 100%;
+    }
 
+    .qna-border {
+        /* width: 200px; */
+        margin: 10px;
+    }
 
+    .qna-box {
+        padding: 8px 12px;
+    }
 
+    .bussiness {
+        padding: 32px 10px;
+    }
 
-
-
-
-
-
-
+    .digital-text {
+        margin-bottom: 16px;
+    }
+}
