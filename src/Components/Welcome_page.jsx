@@ -12,7 +12,7 @@ function Welcome_page() {
             <header className='header-class'>
                 <div className='menu'>
                     <h5 classsName='logo-text'>TEN Market</h5>
-                    <Link to="/QnA_page"><button className='new-btn  mt-4'><FontAwesomeIcon icon={faPlus} ></FontAwesomeIcon>Add Blueprint</button></Link>
+                    <Link to="/QnA_page"><button className='new-btn mt-4'><FontAwesomeIcon icon={faPlus} ></FontAwesomeIcon>Add Blueprint</button></Link>
 
                     <p className='draft mt-3'>DRAFTS</p>
                     <div className='divider'></div>
@@ -68,8 +68,6 @@ function Welcome_page() {
                         </div>
                     </div>
                 </div>
-
-
 
                 
                     <div className='version mt-3'>
