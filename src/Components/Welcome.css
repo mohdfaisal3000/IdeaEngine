@@ -45,12 +45,14 @@ body{
     color:#ffff;
     font-size: 3.5rem;
     font-weight: 700;
+    text-align: center;
 }
 .subtitle{
     font-weight: 500;
     font-size: 1.5rem;
     letter-spacing: 8px;
     color: #fffeff;
+    text-align: center;
 }
 .content{
     max-width: 480px;
@@ -220,7 +222,23 @@ img, video {
     color: #ddd;
 }
 
+@media (max-width: 1180px) {
+    .header-class {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1180px) {
+    .button {
+      display: none;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .content {
+      width: 80%;
+    }
+  }
 
 
-
-
+  
