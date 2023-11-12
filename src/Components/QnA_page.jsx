@@ -37,10 +37,7 @@ function QnA_page() {
     const [buttonsocial, setButtonSocial] = useState("");
     const [buttonperformance, setButtonPerformance] = useState("");
     const [buttonseo, setButtonSeo] = useState("");
-
-    // function counter() {
-    //     setCount(prevCount => prevCount + 1);
-    // }
+    
 
     const ideaHandler = () => {
         setIdea(true);
@@ -257,7 +254,7 @@ function QnA_page() {
                     </div>
                     </div>
                     
-                    <div className='mydivider mt-5'></div>
+                    <div className='mydivider mt-2'></div>
                     <div className='bussiness' style={{ padding: "32px 10px" }}>
                         <div className='logo'>
                             <img src='./images/logo.png' alt=''></img>
